@@ -24,8 +24,8 @@ AMF.columns = ['angle', 'Air_Mass_Factor']
 
 g = interp1d(AMF.angle, AMF.Air_Mass_Factor)
 SC_DATA["AMF"] = g(SC_DATA[1])
-AMF_at_75_9 = g(75.9)
-SC_DATA["Delta_AMF"] = SC_DATA["AMF"] - AMF_at_75_9
+AMF_at_38 g(38)
+SC_DATA["Delta_AMF"] = SC_DATA["AMF"] - AMF_at_38
 SC_DATA["VC"] = SC_DATA[2] / SC_DATA["Delta_AMF"]
 
 

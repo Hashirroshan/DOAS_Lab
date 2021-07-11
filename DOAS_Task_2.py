@@ -136,7 +136,7 @@ plt.plot(X_H, f_H(X_H), '-')
 plt.scatter(X_H, Y_H)
 plt.title('Differential absorption Cross-section of NO\u2082 Interpolation',pad = 20)
 plt.ylabel('Differential absorption Cross-section of NO\u2082 [cm\u00b2]')
-plt.xlabel('Wavelength[nm]')
+plt.xlabel('Wavelength[nm] ')
 plt.show()
 plt.savefig('Task_2_4.png')
 
